@@ -1,0 +1,23 @@
+.container {
+  width: 500px;
+  height: 900px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+h1 {
+  color: #3f51b5;
+  font-weight: 600;
+}
+
+.checkbox {
+  width: 100px;
+  margin-right: 10px;
+}
