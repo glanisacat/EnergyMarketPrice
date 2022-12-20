@@ -96,6 +96,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "signup-form:build:production",
+            "firebaseProject": "energymarketprice-task",
+            "firebaseHostingSite": "energymarketprice-task"
+          }
         }
       }
     }

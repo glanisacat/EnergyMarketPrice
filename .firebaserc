@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "energymarketprice-task": {
+      "hosting": {
+        "signup-form": [
+          "energymarketprice-task"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "energymarketprice-task"
+  }
+}
